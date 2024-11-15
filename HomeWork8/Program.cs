@@ -7,24 +7,24 @@ namespace HomeWork8
         static void Main(string[] args)
         {
             var sw = new Stopwatch();
-
+            //var count = 45;
             //sw.Restart();
-            //for (int i = 0; i <= 20; i++)
+            //for (int i = 0; i <= count; i++)
             //{
             //    Console.WriteLine("The {0}st term of the Fibonacci sequence is {1}.", i, Fibonacci.Reccursion(i));
             //}
             //sw.Stop();
-            //Console.WriteLine("the time spent on finding the Fibonacci sequence of 20 elements using the recursion method was {0} ms.", sw.ElapsedTicks);
+            //Console.WriteLine("the time spent on finding the Fibonacci sequence of {1} elements using the recursion method was {0} ms.", sw.ElapsedMilliseconds,count);
             //Console.WriteLine();
 
 
             //sw.Restart();
-            //for (int i = 0; i <= 20; i++)
+            //for (int i = 0; i <= count; i++)
             //{
             //    Console.WriteLine("The {0}st term of the Fibonacci sequence is {1}.", i, Fibonacci.Loop(i));
             //}
             //sw.Stop();
-            //Console.WriteLine("the time spent searching for a Fibonacci sequence of 20 elements in a loop was {0} ms.",sw.ElapsedTicks);
+            //Console.WriteLine("the time spent searching for a Fibonacci sequence of {1} elements in a loop was {0} ms.", sw.ElapsedMilliseconds,count);
             //Console.WriteLine();
 
 
@@ -48,6 +48,8 @@ namespace HomeWork8
                 Console.WriteLine("The {0}st term of the Fibonacci sequence is {1}.", n, value);
                 Console.WriteLine("the time spent on finding {0} member of the Fibonacci sequence using the loop was {1} ticks.", n, sw.ElapsedTicks);
                 Console.WriteLine();
+
+              
             }
         }
     }
